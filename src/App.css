@@ -7,7 +7,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.home, .cold-storage, .traffic, .transport, .logout {
+.home, .coldStorage, .traffic, .transport, .logout {
   display:flex;
   height: 90vh;
   align-items:center;
