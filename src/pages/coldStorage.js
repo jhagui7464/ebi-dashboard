@@ -1,9 +1,12 @@
-import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SearchBar from '../components/SearchBar'
 
 function coldStorage() {
     return (
         <div className='coldStorage'>
-            <h1>Cold Storage</h1>    
+            <SearchBar/>
+            <h1>Cold Storage</h1>
+
         </div>
     )
 }
