@@ -5,10 +5,12 @@ export class RecentTransactions extends Component {
         return (
             <div>
                 <h1>Recent Transactions</h1>
-
+                
             </div>
         )
     }
 }
 
 export default RecentTransactions
+
+
