@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import SearchBar from '../components/SearchBar'
 
 function coldStorage() {
+    document.title = "Cold Storage"
     return (
         <div className='coldStorage'>
             {/* <SearchBar/> */}

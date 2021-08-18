@@ -1,10 +1,11 @@
+import "../styles/Home.css";
 function home() {
-    return (
-        <div className='home'>
-            <h1>Home</h1>    
-        </div>
-    )
+  document.title = "Home";
+  return (
+    <div className="home">
+      <h1 class="h1">Welcome</h1>
+    </div>
+  );
 }
 
-export default home
-
+export default home;

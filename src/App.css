@@ -7,10 +7,10 @@
   font-family: 'Lato', sans-serif;
 }
 
-.home, .coldStorage, .traffic, .transport, .logout {
+/* .home, .coldStorage, .traffic, .transport, .logout {
   display:flex;
   height: 90vh;
   align-items:center;
   justify-content: center;
   font-size: 3rem;
-}
+} */
