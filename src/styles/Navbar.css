@@ -23,6 +23,7 @@
     top: 0;
     left: -100%;
     transition: 85ms;
+    z-index: 999;
 }
 
 .nav-menu.active {
@@ -73,3 +74,8 @@ span {
     margin-left: 16px;
 }
 
+.navTitle {
+    align-items: center;
+    padding-right: 45%;
+    color: white;
+}

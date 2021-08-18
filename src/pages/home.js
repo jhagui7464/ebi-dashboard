@@ -1,9 +1,13 @@
 import "../styles/Home.css";
+import Graphing from "../components/Graphing.js";
+
+import Navbar from "../components/Navbar";
 function home() {
   document.title = "Home";
   return (
     <div className="home">
-      <h1 class="h1">Welcome</h1>
+      <Navbar title = 'Welcome'/>
+      <Graphing />
     </div>
   );
 }

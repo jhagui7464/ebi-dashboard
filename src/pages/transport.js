@@ -1,8 +1,9 @@
+import Navbar from "../components/Navbar"
 function transport() {
     document.title = 'Transport'
     return (
         <div className='transport'>
-            <h1>Transport</h1>    
+            <Navbar title = 'Transport'/>
         </div>
     )
 }

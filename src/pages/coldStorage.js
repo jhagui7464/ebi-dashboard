@@ -1,12 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import SearchBar from '../components/SearchBar'
+import Navbar from '../components/Navbar'
 
 function coldStorage() {
     document.title = "Cold Storage"
     return (
         <div className='coldStorage'>
-            {/* <SearchBar/> */}
-            <h1>Cold Storage</h1>
+            <Navbar title = 'Cold Storage'/>
 
         </div>
     )

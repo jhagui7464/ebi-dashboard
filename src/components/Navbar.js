@@ -5,9 +5,8 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from './SidebarData'
 import '../styles/Navbar.css'
 import {IconContext} from 'react-icons'
-function Navbar() {
+function Navbar(props) {
     const[sidebar, setSidebar] = useState(false)
-
     const showSidebar = () => setSidebar(!sidebar)
   return (
     <>
@@ -16,7 +15,9 @@ function Navbar() {
         <Link to="#" className="menu-bars">
           <FaIcons.FaBars onClick={showSidebar}/>
         </Link>
+        <h1 className="navTitle">{props.title}</h1>
       </div>
+      
       <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>    
       <ul className='nav-menu-items' onClick={showSidebar}>
           <li className='navbar-toggle'>
