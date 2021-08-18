@@ -9,6 +9,7 @@ import {
 } from "recharts";
 
 import {data} from "./graphMockData";
+import "../styles/Graphing.css"
 
 class Graphing extends Component {
   constructor() {
@@ -32,7 +33,7 @@ class Graphing extends Component {
 
     return (
       <div>
-        <h1>{chartThatChanges.customer}</h1>
+        <h1 className="graphingTitle">{chartThatChanges.customer}</h1>
         <LineChart
           width={600}
           height={300}
