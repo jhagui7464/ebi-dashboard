@@ -8,7 +8,7 @@ import {
   Tooltip,
 } from "recharts";
 
-import {data} from "./graphMockData";
+import {data} from "./GraphMockData";
 import "../styles/Graphing.css"
 
 class Graphing extends Component {
